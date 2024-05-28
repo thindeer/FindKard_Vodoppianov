@@ -1,0 +1,7 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Указать окончания строк для конкретных типов файлов
+*.sh eol=lf
+*.bat eol=crlf
+*.md text
